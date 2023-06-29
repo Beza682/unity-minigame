@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Help/ConstructSingleton.cs.meta
+guid: 7bed811396229de40a1755e3774cb016
+========
+guid: 6ddf9e513b7ad7b4aabea19073dfa561
+>>>>>>>> 549dd2a (Customization panel, animation):Assets/Scripts/Ecs/Systems/CustomizationSystem.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

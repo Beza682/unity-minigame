@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a14a4008020fa64cbb43fa427626b92, type: 3}
+  m_Name: BowBundle
+  m_EditorClassIdentifier: 
+  _items:
+  - _name: bow1
+    _sprite: {fileID: 21300000, guid: 22e15a041f0179447a700fa16459c5c7, type: 3}
+  - _name: bow2
+    _sprite: {fileID: 21300000, guid: 5bbeced8753b3aa41a127c651878628b, type: 3}
+  - _name: bow3
+    _sprite: {fileID: 21300000, guid: 0e829b72de85ecd40a232e6f56f5a645, type: 3}

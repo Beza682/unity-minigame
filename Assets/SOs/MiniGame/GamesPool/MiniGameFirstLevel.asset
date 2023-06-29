@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e44e7826588fe8438869b26ac9737b1, type: 3}
+  m_Name: MiniGameFirstLevel
+  m_EditorClassIdentifier: 
+  _pendulumAmplitude: 45
+  _stageCount: 2
+  _requestBundle: {fileID: 11400000, guid: 7e4da779e8fbd004f80af46ca525411f, type: 2}
+  _stages:
+  - Name: Big Stage
+    Enable: 1
+    PendulumSpeed: 2.81
+    LifeCount: 3
+    CirclesList:
+    - CircleSpeed: 0
+      CircleNumber: 0
+      PlatformsList:
+      - Angle: 24
+        PlatformSize: 2
+        RewardType: 0
+        StageReward:
+        - {fileID: 0}
+        - {fileID: 0}
+      - Angle: -24
+        PlatformSize: 2
+        RewardType: 0
+        StageReward:
+        - {fileID: 0}
+        - {fileID: 0}
+    - CircleSpeed: 0.038
+      CircleNumber: 1
+      PlatformsList:
+      - Angle: 0
+        PlatformSize: 1
+        RewardType: 1
+        StageReward:
+        - {fileID: 11400000, guid: 9e1f53e2f4c209b4abf1294d8354eb0d, type: 2}
+        - {fileID: 11400000, guid: c76255a812f20cd4ebd47637129ab8db, type: 2}
+    - CircleSpeed: 0.0605
+      CircleNumber: 2
+      PlatformsList:
+      - Angle: -10
+        PlatformSize: 0
+        RewardType: 0
+        StageReward:
+        - {fileID: 11400000, guid: 9e1f53e2f4c209b4abf1294d8354eb0d, type: 2}
+        - {fileID: 11400000, guid: c76255a812f20cd4ebd47637129ab8db, type: 2}
+      - Angle: 10
+        PlatformSize: 0
+        RewardType: 0
+        StageReward:
+        - {fileID: 11400000, guid: 9e1f53e2f4c209b4abf1294d8354eb0d, type: 2}
+        - {fileID: 11400000, guid: c76255a812f20cd4ebd47637129ab8db, type: 2}
+      - Angle: 28
+        PlatformSize: 0
+        RewardType: 0
+        StageReward:
+        - {fileID: 11400000, guid: 9e1f53e2f4c209b4abf1294d8354eb0d, type: 2}
+        - {fileID: 11400000, guid: c76255a812f20cd4ebd47637129ab8db, type: 2}
+      - Angle: -28
+        PlatformSize: 0
+        RewardType: 0
+        StageReward:
+        - {fileID: 11400000, guid: 9e1f53e2f4c209b4abf1294d8354eb0d, type: 2}
+        - {fileID: 11400000, guid: c76255a812f20cd4ebd47637129ab8db, type: 2}
+    - CircleSpeed: 0.0605
+      CircleNumber: 3
+      PlatformsList:
+      - Angle: -19
+        PlatformSize: 0
+        RewardType: 2
+        StageReward:
+        - {fileID: 11400000, guid: 35d7754026a1a964891bad9fbf0a4d74, type: 2}
+        - {fileID: 11400000, guid: 2fac5bf05bb6a38449561d42acc914ba, type: 2}
+      - Angle: 19
+        PlatformSize: 0
+        RewardType: 2
+        StageReward:
+        - {fileID: 11400000, guid: 98218ab2e398dd246963e94f389ce20a, type: 2}
+        - {fileID: 11400000, guid: 31b01ca51ddcb464998b699f3862e656, type: 2}
+  - Name: One Platform
+    Enable: 1
+    PendulumSpeed: 4
+    LifeCount: 5
+    CirclesList:
+    - CircleSpeed: 0.1
+      CircleNumber: 2
+      PlatformsList:
+      - Angle: 0
+        PlatformSize: 0
+        RewardType: 2
+        StageReward:
+        - {fileID: 11400000, guid: 98218ab2e398dd246963e94f389ce20a, type: 2}
+        - {fileID: 11400000, guid: 35d7754026a1a964891bad9fbf0a4d74, type: 2}
+  - Name: Few Rewards
+    Enable: 1
+    PendulumSpeed: 2.5
+    LifeCount: 1
+    CirclesList:
+    - CircleSpeed: 0.0249
+      CircleNumber: 0
+      PlatformsList:
+      - Angle: -27.1
+        PlatformSize: 1
+        RewardType: 1
+        StageReward:
+        - {fileID: 11400000, guid: 52757ece42305964aaa1986f6d975d93, type: 2}
+        - {fileID: 11400000, guid: 52757ece42305964aaa1986f6d975d93, type: 2}
+      - Angle: 0
+        PlatformSize: 0
+        RewardType: 0
+        StageReward:
+        - {fileID: 0}
+        - {fileID: 0}
+    - CircleSpeed: 0.0574
+      CircleNumber: 2
+      PlatformsList:
+      - Angle: 27.1
+        PlatformSize: 0
+        RewardType: 2
+        StageReward:
+        - {fileID: 11400000, guid: 2fac5bf05bb6a38449561d42acc914ba, type: 2}
+        - {fileID: 11400000, guid: 35d7754026a1a964891bad9fbf0a4d74, type: 2}
+      - Angle: 0
+        PlatformSize: 1
+        RewardType: 1
+        StageReward:
+        - {fileID: 11400000, guid: 9e1f53e2f4c209b4abf1294d8354eb0d, type: 2}
+        - {fileID: 11400000, guid: c76255a812f20cd4ebd47637129ab8db, type: 2}
+      - Angle: -22.8
+        PlatformSize: 2
+        RewardType: 0
+        StageReward:
+        - {fileID: 11400000, guid: 9e1f53e2f4c209b4abf1294d8354eb0d, type: 2}
+        - {fileID: 11400000, guid: c76255a812f20cd4ebd47637129ab8db, type: 2}
+  - Name: Test
+    Enable: 0
+    PendulumSpeed: 3.34
+    LifeCount: 1
+    CirclesList:
+    - CircleSpeed: 0.0266
+      CircleNumber: 3
+      PlatformsList:
+      - Angle: -21.7
+        PlatformSize: 2
+        RewardType: 1
+        StageReward:
+        - {fileID: 11400000, guid: c76255a812f20cd4ebd47637129ab8db, type: 2}
+        - {fileID: 11400000, guid: c76255a812f20cd4ebd47637129ab8db, type: 2}
+      - Angle: 18.5
+        PlatformSize: 2
+        RewardType: 1
+        StageReward:
+        - {fileID: 11400000, guid: 9e1f53e2f4c209b4abf1294d8354eb0d, type: 2}
+        - {fileID: 11400000, guid: 9e1f53e2f4c209b4abf1294d8354eb0d, type: 2}
+    - CircleSpeed: 0.0266
+      CircleNumber: 2
+      PlatformsList:
+      - Angle: -29
+        PlatformSize: 2
+        RewardType: 0
+        StageReward:
+        - {fileID: 11400000, guid: c76255a812f20cd4ebd47637129ab8db, type: 2}
+        - {fileID: 11400000, guid: c76255a812f20cd4ebd47637129ab8db, type: 2}
+      - Angle: 29
+        PlatformSize: 2
+        RewardType: 0
+        StageReward:
+        - {fileID: 11400000, guid: 9e1f53e2f4c209b4abf1294d8354eb0d, type: 2}
+        - {fileID: 11400000, guid: 9e1f53e2f4c209b4abf1294d8354eb0d, type: 2}
+      - Angle: 0
+        PlatformSize: 2
+        RewardType: 0
+        StageReward:
+        - {fileID: 11400000, guid: 9e1f53e2f4c209b4abf1294d8354eb0d, type: 2}
+        - {fileID: 11400000, guid: 9e1f53e2f4c209b4abf1294d8354eb0d, type: 2}

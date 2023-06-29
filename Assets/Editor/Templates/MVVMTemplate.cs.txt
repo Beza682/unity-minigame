@@ -1,0 +1,66 @@
+using Loxodon.Framework.Binding;
+using Loxodon.Framework.ViewModels;
+using Loxodon.Framework.Views;
+using Loxodon.Framework.Contexts;
+using Loxodon.Framework.Interactivity;
+using Loxodon.Framework.Commands;
+using UnityEngine.UIElements;
+using UIE;
+
+namespace UIS
+{
+    public class #SCRIPTNAME#View : UIToolkitWindow
+    {
+        private #SCRIPTNAME#ViewModel viewModel;
+        private IUIViewLocator locator;
+
+        protected override void OnCreate(IBundle bundle)
+        {
+            viewModel = new #SCRIPTNAME#ViewModel();
+
+            this.locator = Context.GetApplicationContext().GetService<IUIViewLocator>();
+            var bindingSet = this.CreateBindingSet(viewModel);
+
+            //Place to bind and assign values
+
+            bindingSet.Build();
+        }
+    }
+
+    public class #SCRIPTNAME#ViewModel : ViewModelBase
+    {
+        public #SCRIPTNAME#ViewModel()
+        {
+            ExampleMethod();
+        }
+
+        #region Example
+        private InteractionRequest _exampleRequest;
+        private SimpleCommand _exampleCommand;
+
+        public IInteractionRequest ExampleRequest
+        {
+            get { return _exampleRequest; }
+        }
+
+        public ICommand ExampleCommand
+        {
+            get { return _exampleCommand; }
+        }
+
+        public void ExampleMethod()
+        {
+            _exampleRequest = new InteractionRequest();
+            _exampleCommand = new SimpleCommand(() =>
+            {
+                _exampleRequest.Raise(() => ExampleAction("message"));
+            });
+        }
+
+        private void ExampleAction(string message)
+        {
+            UnityEngine.Debug.Log($"ExampleText: {message}");
+        }
+        #endregion
+    }
+}

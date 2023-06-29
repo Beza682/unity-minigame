@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Interfaces/IIdentificator.cs.meta
+guid: 0722bced81a3999448326d57ac12b7e5
+========
+guid: 24f4243360dc46647b10380a7464fdc6
+>>>>>>>> cd3ef411 (Commit):Assets/Scripts/Components/EcsEmitterEvent.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

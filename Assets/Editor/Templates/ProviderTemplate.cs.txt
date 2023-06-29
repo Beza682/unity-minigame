@@ -1,0 +1,3 @@
+﻿using Voody.UniLeo;
+
+public class #SCRIPTNAME# : MonoProvider<#COMPONENTNAME#> { }

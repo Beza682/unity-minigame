@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a14a4008020fa64cbb43fa427626b92, type: 3}
+  m_Name: RequestBundle
+  m_EditorClassIdentifier: 
+  _items:
+  - _name: amulet1
+    _sprite: {fileID: 21300000, guid: f681eee7428bce8499acdadfa5df572c, type: 3}
+  - _name: amulet2
+    _sprite: {fileID: 21300000, guid: f0e6439e029d2644d8e595a563b5e265, type: 3}
+  - _name: amulet3
+    _sprite: {fileID: 21300000, guid: 85e4774d56352384ea1ccf7fccf7e570, type: 3}
+  - _name: axe1
+    _sprite: {fileID: 21300000, guid: 04af35663c16ca34daa165438b6fc717, type: 3}
+  - _name: axe2
+    _sprite: {fileID: 21300000, guid: 4ce32be8273ea0c46859dc5b2fb53766, type: 3}
+  - _name: axe3
+    _sprite: {fileID: 21300000, guid: ee8e47a68acd4e843a389df8563a63c1, type: 3}
+  - _name: bow1
+    _sprite: {fileID: 21300000, guid: 22e15a041f0179447a700fa16459c5c7, type: 3}
+  - _name: bow2
+    _sprite: {fileID: 21300000, guid: 5bbeced8753b3aa41a127c651878628b, type: 3}
+  - _name: bow3
+    _sprite: {fileID: 21300000, guid: 0e829b72de85ecd40a232e6f56f5a645, type: 3}
+  - _name: cloak1
+    _sprite: {fileID: 21300000, guid: 3553b1b55ecfdad49acd96131c450a7a, type: 3}
+  - _name: cloak2
+    _sprite: {fileID: 21300000, guid: 3f9545198b4e9314da44f2f83397c3cf, type: 3}
+  - _name: cloak3
+    _sprite: {fileID: 21300000, guid: ebbcb2bd5dbbade4a94625f6c4750773, type: 3}
+  - _name: dagger1
+    _sprite: {fileID: 21300000, guid: 81ffae9033e8bf44895a9a44aa870f3f, type: 3}
+  - _name: dagger2
+    _sprite: {fileID: 21300000, guid: eb024e6cc53445446b563b6c4798fcaf, type: 3}
+  - _name: dagger3
+    _sprite: {fileID: 21300000, guid: 42d7678c7dae9294493d572cf2a05c79, type: 3}
+  - _name: ring1
+    _sprite: {fileID: 21300000, guid: 50695e45a00a76c49bfc89ad3487e527, type: 3}
+  - _name: ring2
+    _sprite: {fileID: 21300000, guid: 563d1b7409312c84db72645a6b1ee6e8, type: 3}
+  - _name: ring3
+    _sprite: {fileID: 21300000, guid: ef68a4ae34fa4374fafbb91c4e91fffb, type: 3}
+  - _name: staff1
+    _sprite: {fileID: 21300000, guid: 44bc002f49a6ce043a5463a3d4759778, type: 3}
+  - _name: staff2
+    _sprite: {fileID: 21300000, guid: 1e00b0265853b54419d7352e88fe897d, type: 3}
+  - _name: staff3
+    _sprite: {fileID: 21300000, guid: 33a4480afa7e89340b0bdefaedccd36b, type: 3}
+  - _name: sword1
+    _sprite: {fileID: 21300000, guid: d9234f4694386c64cbb42d0e14c85a1c, type: 3}
+  - _name: sword2
+    _sprite: {fileID: 21300000, guid: 164442b3deafec84491468105cfbf249, type: 3}
+  - _name: sword3
+    _sprite: {fileID: 21300000, guid: caa914be102474c4299dc56dcbeec370, type: 3}

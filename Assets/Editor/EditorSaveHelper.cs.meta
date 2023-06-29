@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Editor/EditorSaveHelper.cs.meta
+guid: 399523d5f0b4cbc4ca602e19c4d0b4b7
+========
+guid: 1be5e94d82c044646be50cc1685e6139
+>>>>>>>> 549dd2a (Customization panel, animation):Assets/Editor/Customization/PersonBodyCustomizationGUI.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a14a4008020fa64cbb43fa427626b92, type: 3}
+  m_Name: CloakBundle
+  m_EditorClassIdentifier: 
+  _items:
+  - _name: cloak1
+    _sprite: {fileID: 21300000, guid: 3553b1b55ecfdad49acd96131c450a7a, type: 3}
+  - _name: cloak2
+    _sprite: {fileID: 21300000, guid: 3f9545198b4e9314da44f2f83397c3cf, type: 3}
+  - _name: cloak3
+    _sprite: {fileID: 21300000, guid: ebbcb2bd5dbbade4a94625f6c4750773, type: 3}

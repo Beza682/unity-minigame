@@ -1,0 +1,186 @@
+{
+    "name": "InputSystemControls",
+    "maps": [
+        {
+            "name": "Testing",
+            "id": "49a42d35-ade9-4c9c-b65e-2704605b0783",
+            "actions": [
+                {
+                    "name": "OwnerResources",
+                    "type": "Button",
+                    "id": "29fc31d9-a6ab-471a-94f8-a5cbb8a544d9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "VFXR",
+                    "type": "Button",
+                    "id": "9833bba8-0005-43d6-92b1-cf3c010a9726",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "VFXR UIE",
+                    "type": "Button",
+                    "id": "ffce737b-18d8-4aed-adf6-7e34576b9a63",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Balance UIE",
+                    "type": "Button",
+                    "id": "c7fc903d-323c-4726-97f2-a4706efd6a20",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shift Add Text",
+                    "type": "Button",
+                    "id": "16e84aef-06bd-4058-9a84-3ccef19a6065",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shift Less Text",
+                    "type": "Button",
+                    "id": "1ad4b77e-5885-4e02-8cc5-384dbad4382c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Random Text",
+                    "type": "Button",
+                    "id": "6ffb93a6-9a30-4abf-98c9-77f8a66f0597",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Start Slider Renderer",
+                    "type": "Button",
+                    "id": "64d36549-11a8-41ce-8cf7-10bb74253cad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fe69580b-4d14-4725-8323-ca6ccb360e69",
+                    "path": "<Keyboard>/q",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "Testing",
+                    "action": "OwnerResources",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c896f34d-ec6c-4b13-b8cf-95a2b7fb05dc",
+                    "path": "<Keyboard>/w",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Testing",
+                    "action": "VFXR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dd6d7e5d-1b40-495a-ae1f-84d9b7997c10",
+                    "path": "<Keyboard>/e",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Testing",
+                    "action": "VFXR UIE",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08893e20-1f9c-4ef6-96ac-fc4bebd7ecc7",
+                    "path": "<Keyboard>/r",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Testing",
+                    "action": "Balance UIE",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f9638d6c-3d33-4cb8-8518-8ba679723d34",
+                    "path": "<Keyboard>/period",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Testing",
+                    "action": "Shift Add Text",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "20a793ad-2634-4d45-af97-3625e152fdbf",
+                    "path": "<Keyboard>/comma",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Testing",
+                    "action": "Shift Less Text",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7f14db4a-084d-420f-b93a-703be2e19721",
+                    "path": "<Keyboard>/slash",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Testing",
+                    "action": "Random Text",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "520c4134-9c7a-4e4d-a218-0e73d9738fe0",
+                    "path": "<Keyboard>/t",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Testing",
+                    "action": "Start Slider Renderer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Testing",
+            "bindingGroup": "Testing",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

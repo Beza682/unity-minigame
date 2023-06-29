@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a14a4008020fa64cbb43fa427626b92, type: 3}
+  m_Name: SwordBundle
+  m_EditorClassIdentifier: 
+  _items:
+  - _name: sword1
+    _sprite: {fileID: 21300000, guid: d9234f4694386c64cbb42d0e14c85a1c, type: 3}
+  - _name: sword2
+    _sprite: {fileID: 21300000, guid: 164442b3deafec84491468105cfbf249, type: 3}
+  - _name: sword3
+    _sprite: {fileID: 21300000, guid: caa914be102474c4299dc56dcbeec370, type: 3}

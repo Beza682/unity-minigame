@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <UIE.TooltipBlock background-color="#E9B48CFF" border-color="#BE9494F8" text-tooltip="abc" font-size="24.22" border-width="3.34" border-radius="9.7" position-anchor="CenterBottom" style="width: 100%; height: 100%; position: absolute;" />
+</ui:UXML>

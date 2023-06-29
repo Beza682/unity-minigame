@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/DataWork/DataService.cs.meta
+guid: f63ad158dc3d5a14496debe63dac4ab6
+========
+guid: 574b2f3cec955194d9d34c5b6c7bfb50
+>>>>>>>> 549dd2a (Customization panel, animation):Assets/Editor/EditorSaveHelper.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
